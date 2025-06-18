@@ -1,0 +1,28 @@
+# React Project Commands and Details
+
+## 1. Session Start (19 June 2025)
+- Tracking of all commands and work related to React in this workspace has started.
+
+## 2. React App Creation Commands Used
+
+### A. Using Create React App (basic-react)
+- Command: `npx create-react-app basic-react`
+  - Description: Bootstraps a new React project using Create React App.
+  - Directory: `/Users/nirmalsingh/Desktop/React/`
+  - Result: Created the `basic-react` folder with all necessary files and dependencies.
+
+### B. Using Vite (first-vite-react-app)
+- Command: `npm create vite@latest first-vite-react-app -- --template react`
+  - Description: Creates a new React project using Vite for faster development and build.
+  - Directory: `/Users/nirmalsingh/Desktop/React/`
+  - Result: Created the `first-vite-react-app` folder with Vite and React setup.
+
+## 3. Running the React App
+- Command: `npm run dev`
+  - Description: Starts the Vite development server for the `first-vite-react-app`.
+  - Directory: `/Users/nirmalsingh/Desktop/React/first-vite-react-app`
+  - Output: Local server started at http://localhost:5173/ (with some missing file errors).
+
+---
+
+*This log will be updated automatically as you continue working.*
