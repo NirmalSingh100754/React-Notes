@@ -40,6 +40,18 @@
 - Created `custom-react/index.html`:
   - Simple HTML file to test the custom render logic by including `customreact.js` and rendering to a `div#root`.
 
+## 6. Tailwind Props Project Updates (19 June 2025)
+- Created/modified `src/assets/components/Card.jsx` in the `tailwind-props` project:
+  - Implemented a `Card` React component that uses Tailwind CSS utility classes for styling.
+  - The component displays an image, a username (from props, with a default fallback), a heading, and a description.
+  - Demonstrates use of Tailwind classes for layout, color, and typography.
+
+## 7. React Fiber (Brief Overview)
+- React Fiber is the new reconciliation engine in React (since React 16).
+- It enables incremental rendering, allowing React to split rendering work into units and pause, resume, or abort work as needed.
+- Fiber improves responsiveness and enables features like concurrent rendering, prioritization, and better handling of large component trees.
+- It is a core part of how React efficiently updates the UI in modern applications.
+
 ---
 
 *This log will be updated automatically as you continue working.*
