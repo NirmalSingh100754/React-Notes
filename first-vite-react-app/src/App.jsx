@@ -1,11 +1,14 @@
 import Chai from "./chai"
 
-function App() {
 
+
+function App() {
+// {} evaluated expression ionly written inside JSX
+  const username = "Nirmal Singh";
   return (
     <>   
     <Chai />
-    <h1>Welcome to my first Vite React App.</h1>
+    <h1>Welcome to my first Vite React App.{username}</h1>
     </>
   )
 }

@@ -23,6 +23,23 @@
   - Directory: `/Users/nirmalsingh/Desktop/React/first-vite-react-app`
   - Output: Local server started at http://localhost:5173/ (with some missing file errors).
 
+## 4. Tracking Setup
+- 19 June 2025: Set up automated tracking for all commands, file changes, and work in this workspace as requested by the user.
+
+## 5. Code Changes and Custom Implementation (19 June 2025)
+- Modified `first-vite-react-app/src/App.jsx`:
+  - Added import for `Chai` component and rendered it.
+  - Introduced a `username` variable and displayed it in the main heading.
+- Modified `first-vite-react-app/src/main.jsx`:
+  - Added a custom `Nirmal` function component.
+  - Demonstrated multiple ways to create and render React elements, including with `React.createElement` and JSX.
+  - Only `<App />` is rendered by default; other render options are commented for reference.
+- Created `custom-react/customreact.js`:
+  - Implemented a `customRender` function to mimic React's rendering for a single anchor element.
+  - Demonstrated usage with a sample React-like object and rendered it to the DOM.
+- Created `custom-react/index.html`:
+  - Simple HTML file to test the custom render logic by including `customreact.js` and rendering to a `div#root`.
+
 ---
 
 *This log will be updated automatically as you continue working.*
